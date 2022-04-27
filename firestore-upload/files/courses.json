@@ -1,0 +1,66 @@
+[
+  {
+    "courseID": "Course_01",
+    "courseName": "Spring",
+    "coursePrice": 9.99,
+    "description":"Spring is an open source framework for building and defining the infrastructure of a Java application, which it facilitates development and testing.",
+    "courseImage": "assets/logos/spring.png",
+    "availability": "100"
+  },
+    {
+    "courseID": "Course_02",
+    "courseName": "Angular",
+    "coursePrice": 19.99,
+    "description":"Angular is a client-side, open-source, TypeScript-based framework co-led by the Angular project team at Google and a community of individuals and companies. Angular is a complete rewrite of AngularJS, framework built by the same team.",
+    "courseImage": "assets/logos/angular.png",
+    "availability": "100"
+  },
+    {
+    "courseID": "Course_03",
+    "courseName": "Ionic",
+    "coursePrice": 29.99,
+    "description":"Ionic Framework's app development platform builds amazing cross-platform mobile, web, and desktop apps all with one shared code base and open-web standards.",
+    "courseImage": "assets/logos/ionic.png",
+    "availability": "100"
+  },
+    {
+    "courseID": "Course_01",
+    "courseName": "ReactJs",
+    "coursePrice": 9.99,
+    "description":"React is a free JavaScript library developed by Facebook since 2013. The main purpose of this library is to facilitate the creation of single-page web applications, through the creation of state-dependent components and generating an HTML page at each state change.",
+    "courseImage": "assets/logos/react.png",
+    "availability": "100"
+  },
+    {
+    "courseID": "Course_01",
+    "courseName": "Vue",
+    "coursePrice": 9.99,
+    "description":"Vue.js, is an open-source JavaScript framework used to build user interfaces and single-page web applications. Vue was created by Evan You and is maintained by him and the rest of the active core team members working on the project and its ecosystem.",
+    "courseImage": "assets/logos/vue.png",
+    "availability": "100"
+  },
+  {
+    "courseID": "Course_01",
+    "courseName": "Django",
+    "coursePrice": 19.99,
+    "description":"Django is an open source Python web development framework. It aims to make web 2.0 development simple and fast. For this reason, the project has the slogan 'The framework for perfectionists with deadlines'",
+    "courseImage": "assets/logos/django.jpg",
+    "availability": "100"
+  },
+  {
+    "courseID": "Course_01",
+    "courseName": "JavaScript",
+    "coursePrice": 9.99,
+    "description":"JavaScript is a scripting language primarily used in interactive web pages and as such is an essential part of web applications. Along with HTML and CSS, JavaScript is at the heart of the languages used by web developers.",
+    "courseImage": "assets/logos/js.png",
+    "availability": "100"
+  },
+  {
+    "courseID": "Course_01",
+    "courseName": "Java",
+    "coursePrice": 19.99,
+    "description":"Java is an object-oriented programming language created by James Gosling and Patrick Naughton, employees of Sun Microsystems, with the support of Bill Joy, officially presented on May 23, 1995 at SunWorld. Sun was then bought in 2009 by Oracle, which now owns and maintains Java.",
+    "courseImage": "assets/logos/java.png",
+    "availability": "100"
+  }
+]

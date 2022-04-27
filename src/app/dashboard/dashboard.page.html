@@ -1,0 +1,45 @@
+<!--<ion-button type="submit" (click)="authService.SignOut()" expand="block">Logout</ion-button>-->
+<ion-header>
+    <ion-toolbar>
+      <ion-title slot="start">Our courses :</ion-title>
+      <ion-row slot="end">
+        <ion-button type="submit" (click)="authService.SignOut()" expand="block">Logout</ion-button>
+      </ion-row>
+    </ion-toolbar>
+</ion-header>
+  
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let c of courses | async" [routerLink]="['/booking']"> <!--(click)="c.expanded =!c.expanded"-->
+      <ion-thumbnail slot="start">
+        <ion-img [src]="c.courseImage"></ion-img>
+      </ion-thumbnail>
+
+      <ion-label class="ion-text-wrap">
+        {{c.courseName}}<br>
+        <b>{{c.coursePrice | currency:'USD'}}</b>
+        <p>{{c.availability}} left</p>
+        <!--<div [hidden]="!c.expanded">
+          {{c.description}}
+        </div>-->
+      </ion-label>
+
+     <!-- <ion-row slot="end" class="ion-no-padding ion-align-items-center">
+        <ion-col size="5">
+          <ion-button (click)="addToBookingList($event, c)" fill="clear">
+            <ion-icon name="add" slot="icon-only"></ion-icon>
+          </ion-button>
+        </ion-col>
+
+
+        <ion-col size="5">
+          <ion-button (click)="removeFromBookingList($event, c)" fill="clear">
+            <ion-icon name="remove" slot="icon-only"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      -->
+    </ion-item>
+
+  </ion-list>
+</ion-content>
